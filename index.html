@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Shubhangi | Portfolio</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <!-- ===== NAVBAR ===== -->
+  <header>
+    <nav>
+      <div class="logo">Shubhangi<span style="color:#00b4d8;">.</span></div>
+      <ul class="nav-links">
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#academics">Academics</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- ===== HOME ===== -->
+  <section id="home" class="section home-section">
+    <div class="home-content">
+      <div class="intro">
+        <div class="image">
+  <img src="profile.jpg" alt="Profile" class="profile-pic">
+</div>
+        <h3>Hello 👋</h3>
+        <h1>I'm <span class="highlight">Shubhangi</span></h1>
+        <p class="tagline">Data Science Student</p>
+        <p id="datetime"></p>
+        <div class="buttons">
+          <a href="resume.pdf" class="btn" download>📄 Download Resume</a>
+          <a href="#about" class="btn secondary">Explore</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== ABOUT ===== -->
+  <section id="about" class="section fade-in">
+    <h2>About Me</h2>
+    <p>
+      Hi, I'm Shubhangi! I am a final-year Bachelor of Engineering student in Computer Science & Engineering (Data Science), expected to graduate in 2027. I have built a strong foundation in Data Structures & Algorithms, Object-Oriented Programming, SQL, and Database Management Systems, while continuously expanding my knowledge of Cloud Computing, Web Development, and Software Development. I enjoy solving real-world problems through coding, building practical projects, and continuously learning new technologies to grow as a software engineer.
+    </p>
+    <p>
+      This portfolio reflects my journey and skills developed through hands-on projects and continuous learning.
+    </p>
+    <p>
+      Phone No. - 7624815964
+      </p>
+      <p>Email - shubhangi.nancy2004@gmail.com
+      </p>
+  </section>
+
+
+  <!-- ===== ACADEMICS ===== -->
+  <section id="academics" class="section fade-in">
+    <h2>Academic Details</h2>
+    <table class="academic-table">
+      <tr>
+        <th>Semester</th>
+        <th>SGPA</th>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>7.45</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>9.15</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>8.40</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>8.65</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>8.30</td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>8.61</td>
+      </tr>
+    </table>
+  </section>
+
+  <!-- ===== SKILLS ===== -->
+  <section id="skills" class="section fade-in">
+    <h2>Technical Skills</h2>
+    <div class="skill-bar">
+      <p>C++</p><div class="bar"><div class="progress" style="width: 100%"></div></div>
+      <p>Python</p><div class="bar"><div class="progress" style="width: 75%"></div></div>
+      <p>SQL</p><div class="bar"><div class="progress" style="width: 80%"></div></div>
+      <p>DBMS</p><div class="bar"><div class="progress" style="width: 95%"></div></div>
+      <p>MySQL</p><div class="bar"><div class="progress" style="width: 95%"></div></div>
+      <p>AWS(Basic)</p><div class="bar"><div class="progress" style="width: 65%"></div></div>
+      <p>Tableau Public</p><div class="bar"><div class="progress" style="width: 80%"></div></div>
+      <p>Hadoop</p><div class="bar"><div class="progress" style="width: 60%"></div></div>
+      <p>HTML</p><div class="bar"><div class="progress" style="width: 70%"></div></div>
+      <p>CSS</p><div class="bar"><div class="progress" style="width: 60%"></div></div>
+      <p>Javascript(Basic)</p><div class="bar"><div class="progress" style="width: 55%"></div></div>
+    </div>
+  </section>
+
+  <!-- ===== PROJECTS ===== -->
+  <section id="projects" class="section fade-in">
+    <h2>Projects</h2>
+    <div class="project-grid">
+      <div class="project-card">
+        <h3>Portfolio Website</h3>
+        <p>A responsive portfolio designed using HTML, CSS, and JavaScript with smooth animations.</p>
+      </div>
+      <div class="project-card">
+        <h3>Veriscan</h3>
+        <p>It is an AI-Powered Fake Profile Detection System. Developed a machine learning-based system to identify suspicious Instagram profiles using behavioral and profile-based features.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== CONTACT ===== -->
+  <section id="contact" class="section fade-in">
+    <h2>Contact Me</h2>
+    <p>If you'd like to connect or collaborate, drop me a message below.</p>
+    <form id="contactForm">
+      <input type="text" id="name" placeholder="Your Name" required />
+      <input type="email" id="email" placeholder="Your Email" required />
+      <textarea id="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+
+  <!-- ===== SCROLL TO TOP ===== -->
+  <button id="scrollTopBtn">↑</button>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <p>© 2025 Shubhangi | Designed with 💙 for Data Science Portfolio</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
